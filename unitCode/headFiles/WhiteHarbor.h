@@ -19,7 +19,10 @@
 #define IP_3 (0)
 #define IP_SERVER (IP_1 , IP_2 , IP_3 , 100)
 #define IP_NET_UNIT (IP_1 , IP_2 , IP_3 , 101)
-#define IP_COMMON_STOP (IP_1 , IP_2 , IP_3 , 102);
+#define IP_COMMON_STOP (IP_1 , IP_2 , IP_3 , 102)
+#define IP_GARDE_SYSTEM (IP_1 , IP_2 , IP_3 , 103)
+
 
 #define MAC_NET_UNIT {0xEA , 0x00 , 0x00 , 0x00 , 0x00 , 0x01}
 #define MAC_COMMOM_STOP {0xEA , 0x00 , 0x00 , 0x00 , 0x00 , 0x02}
+#define MAC_GRADE_SYSTEM {0xEA , 0x00 , 0x00 , 0x00 , 0x00 , 0x03}
